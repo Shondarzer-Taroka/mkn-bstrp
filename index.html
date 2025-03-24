@@ -33,10 +33,20 @@
                         <button class="btn btn-outline-success" type="submit"> <i class="bi bi-search"></i> </button>
                     </form>
 
-                    <div class="ms-2">
-                        <button type="button" class="btn btn-dark"> <i class="bi bi-person-circle"></i></button>
-
+                    <!-- Wrapper div for small screens (0px - 772px) -->
+                    <div class="mt-2 d-sm-none">
+                        <button type="button" class="btn btn-dark">
+                            <i class="bi bi-person-circle"></i>
+                        </button>
                     </div>
+
+                    <!-- Wrapper div for larger screens (above 772px) -->
+                    <div class="ms-lg-2 d-none d-sm-block">
+                        <button type="button" class="btn btn-dark">
+                            <i class="bi bi-person-circle"></i>
+                        </button>
+                    </div>
+
                 </div>
 
 
